@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/news_db?currentSchema=news_schema
+    username: news
+    password: news
+  jpa:
+    show-sql: true

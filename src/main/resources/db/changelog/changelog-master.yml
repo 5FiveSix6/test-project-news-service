@@ -1,0 +1,10 @@
+databaseChangeLog:
+  - include:
+      relativeToChangelogFile: true
+      file: changeset/v1_05.06.24_create_users_table.sql
+  - include:
+      relativeToChangelogFile: true
+      file: changeset/v1.1_05.06.24_create_news_table.sql
+  - include:
+      relativeToChangelogFile: true
+      file: changeset/v1.2_08.06.24_insert_data_into_tables.sql

@@ -1,0 +1,7 @@
+spring:
+  config:
+    import: optional:file:.env[.properties]
+  datasource:
+    url: jdbc:postgresql://news_service_db:5432/${POSTGRES_DATABASE}?currentSchema=news_schema
+    username: ${POSTGRES_USERNAME}
+    password: ${POSTGRES_PASSWORD}

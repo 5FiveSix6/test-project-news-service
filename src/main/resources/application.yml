@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: news-service
+  liquibase:
+    change-log: db/changelog/changelog-master.yml
+    default-schema: news_schema
+  jpa:
+    hibernate:
+      ddl-auto: validate
